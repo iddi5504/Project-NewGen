@@ -1,0 +1,278 @@
+#nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    color: black;
+    font-weight: 100;
+    background: white;
+}
+#bottomnav{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-around;
+    width: 100%;
+    color: black;
+    font-weight: 100;
+    background: #9092d438;
+}
+
+#topnav{
+    width: 100%;
+    padding: 2px 2px 2px 19px;
+    height: 49px;
+    align-items: center;
+}
+
+.topsection{
+    align-self: normal;
+    height: 54vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -123px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+#logo{
+    justify-content: center !important;
+    width: 100px;
+    height: 100px;
+   
+}
+
+.secondsection{
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    padding: 22px;
+    font-size: 24px;
+    font-family: system-ui;
+    
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 6px;
+    width: 22em;
+}
+#pic{
+    flex: 0.5;
+}
+
+#takeactionbutton{
+    border: 0px;
+    border-radius: 35px;
+    background-color: #e34a2f;
+    color: white;
+    width: 144px;
+    padding: 4px;
+    margin: 9px;
+}
+
+.statistics{
+    display: flex;
+    width: 353px;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 1px 1px 13px black;
+    bottom: -83px;
+    position: absolute;
+}
+.thirdsection{
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: azure;
+    max-width: 755px;
+    margin-top: 6em;
+}
+#circleimage{
+    width: 13em;
+    height: 13em;
+    border-radius: 50%;
+    box-shadow: 1px 2px 16px black;
+}
+
+.thirdsectionessay{
+    display: flex;
+    font-family: revert;
+    flex-wrap: wrap;
+    text-align: justify;
+    width: fit-content;
+    justify-content: center;
+    padding: 15px;
+}
+
+.thirdsectionessaylargescreen{
+        display: none;
+}
+
+.navitem{
+    font-size: 16px;
+    padding: 1px;
+}
+
+.button{
+    border: 0px;
+    border-radius: 35px;
+    background-color: #e34a2f;
+    color: white;
+    padding: 8px 10px;
+    margin: 9px;
+    
+}
+
+#image4{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 1px 1px 3px black;
+}
+.fourthsection{
+    max-width: 693px;
+    display: flex;
+    flex-direction: column;
+}
+.fourthsectionessay{
+    display: flex;
+    font-size: 16px;
+    flex-wrap: wrap;
+    text-align: justify;
+    width: fit-content;
+    justify-content: center;
+    padding: 15px;
+}
+.fifthsection{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    max-width: 731px;
+}
+.sponsortext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sponsorimages{
+    background: rgb(255 255 255);
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.sponsorimage{
+    width: 8em;
+}
+
+.sixthsection{
+    max-width: 724px;
+    display: flex;
+    padding: 14px;
+}
+
+#blogprofile{
+    box-shadow: -1px 2px 10px black;
+    width: 150px;
+    border-radius: 50%;
+    height: 171px;
+    margin: 10px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 3px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin: 10px;
+    width: 223px;
+    outline: none;
+    text-align: center;
+}
+.contactus{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    background: black;
+    color: white;
+    flex-direction: column;
+}
+
+#actuallogo{
+    width: 276px;
+    filter: invert();
+}
+
+.socialmedia{
+    width: 40px;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+
+}
+
+@media  only screen and (min-width:750px) {
+ .navitem{
+   font-size: 23px;
+ }
+
+.intro{
+    left: 217px;
+}
+
+
+}
+   
+@media  only screen and (min-width:500px) {
+   
+    .thirdsectionessaylargescreen{
+        display: block;
+    }
+    .thirdsectionessay{
+        display: none;
+    }
+    #blogprofile{
+        width: 208px;
+        border-radius: 0px;
+        height: fit-content;
+
+    }
+
+    
+
+}
+
+      
